@@ -1,0 +1,198 @@
+
+
+body {
+	background-color: #222222;
+	color: white;
+}
+
+
+h1{
+	font-family: 'Roboto2', sans-serif;
+	line-height: 1.7;
+    font-size: 17px;
+    letter-spacing: 1px;
+	margin:auto;
+	font-weight: bold;
+
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.7;
+    font-size: 17px;
+    letter-spacing: 1px;
+	margin:auto;
+
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    font-size: 23px;
+    letter-spacing: 1px;
+    margin:auto;
+}
+
+h5{
+	font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.box{
+	background-color: #444444;
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
+	top: 0px;
+}
+
+.columnleft {
+	position: absolute;
+	padding: 10px;
+	padding-left: 30px;
+	top: 250px;
+	width: 55%;
+}
+
+.columnright{
+	position: absolute;
+	top:120px;
+	padding: 10px;
+	width: 40%;
+	right:10px;
+}
+
+
+img {
+	width: 400px;
+	border:1px solid black;
+    opacity: 0;
+    transition: 0s 60s;
+}
+
+img:hover {
+  opacity: 1.0;
+  transition: opacity 0.3s;
+}
+
+.refbox{
+	border:1px solid white;
+	width:400px;
+	font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.work{
+    opacity: 1;
+}
+
+
+
+
+.source0, #parent {
+    cursor: pointer;
+}
+.source0:hover ~ .reference0 {
+    background-color: blue;    
+    color: white;
+}
+
+.source01, #parent {
+    cursor: pointer;
+}
+.source01:hover ~ .reference01 {
+    background-color: blue;    
+    color: white;
+}
+
+.source1, #parent {
+    cursor: pointer;
+}
+.source1:hover ~ .reference1 {
+    background-color: blue;    
+    color: white;
+}
+
+.source2, #parent {
+    cursor: pointer;
+}
+.source2:hover ~ .reference2 {
+    background-color: blue;
+    color: white;
+}
+
+.source3, #parent {
+    cursor: pointer;
+}
+.source3:hover ~ .reference3 {
+    background-color: blue;
+    color: white;
+}
+
+.source4, #parent {
+    cursor: pointer;
+}
+.source4:hover ~ .reference4 {
+    background-color: blue;
+    color: white;
+}
+
+.source5, #parent {
+    cursor: pointer;
+}
+.source5:hover ~ .reference5 {
+    background-color: blue;
+    color: white;
+}
+
+.source6, #parent {
+    cursor: pointer;
+}
+.source6:hover ~ .reference6 {
+    background-color: blue;
+    color: white;
+}
+
+.source7, #parent {
+    cursor: pointer;
+}
+.source7:hover ~ .reference7 {
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
